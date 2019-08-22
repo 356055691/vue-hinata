@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <VueHinata></VueHinata>
-    <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
     <ul>
