@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueHinata from './vueHinata'
+import VueHinata from './index'
 
 Vue.use(VueHinata);
 
