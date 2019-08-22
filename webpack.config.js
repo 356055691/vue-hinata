@@ -2,14 +2,20 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'index.js',
-    libraryTarget: 'umd',
-    umdNamedDefine: true
+    filename: 'build.js'
   },
+  // entry: './src/index.js',
+  // output: {
+  //   path: path.resolve(__dirname, './dist'),
+  //   publicPath: '/dist/',
+  //   filename: 'index.js',
+  //   libraryTarget: 'umd',
+  //   umdNamedDefine: true
+  // },
   module: {
     rules: [
       {
