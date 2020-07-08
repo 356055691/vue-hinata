@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-  name: 'vueGirl',
+  name: 'vueHinata',
   data() {
     return {
       picNum: 1,
@@ -53,19 +53,20 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .girl-c {
-  position: fixed;
-  left: 20px;
-  top: 10px;
-  .girl-pic {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+}
+.girl-pic {
     width: auto;
     height: 200px;
-  }
-  .girl-main {
+}
+.girl-main {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -73,6 +74,5 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-  }
 }
 </style>
