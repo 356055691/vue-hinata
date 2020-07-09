@@ -2,11 +2,11 @@
 // export default hinata;
 
 // 导入单个组件
-import hinata from './hinata.vue'
+import Hinata from './hinata.vue'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-    hinata
+  Hinata
 ];
 
 // 定义 install 方法

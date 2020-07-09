@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-  name: 'hinata',
+  name: 'Hinata',
   data() {
     return {
       picNum: 1,

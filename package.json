@@ -1,11 +1,11 @@
 {
   "name": "vue-hinata",
-  "version": "3.0.9",
+  "version": "3.0.10",
   "private": false,
   "main": "./libs/hinata.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --dest libs --target lib --name hinata ./src/components/index.js",
+    "build": "vue-cli-service build --dest libs --target lib --name Hinata ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
