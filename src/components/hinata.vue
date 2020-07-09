@@ -1,10 +1,10 @@
 <template>
   <div class="girl-c" ref="girl">
-    <img v-if="picNum===1" class="girl-pic" src="../assets/ct_1.png" />
-    <img v-if="picNum===2" class="girl-pic" src="../assets/ct_5.png" />
-    <img v-if="picNum===3" class="girl-pic" src="../assets/ct_4.png" />
-    <img v-if="picNum===4" class="girl-pic" src="../assets/ct_3.png" />
-    <img v-if="picNum===5" class="girl-pic" src="../assets/ct_2.png" />
+    <img v-if="picNum===1" class="girl-pic" src="@/assets/ct_1.png" />
+    <img v-if="picNum===2" class="girl-pic" src="@/assets/ct_5.png" />
+    <img v-if="picNum===3" class="girl-pic" src="@/assets/ct_4.png" />
+    <img v-if="picNum===4" class="girl-pic" src="@/assets/ct_3.png" />
+    <img v-if="picNum===5" class="girl-pic" src="@/assets/ct_2.png" />
     <div
       class="girl-main"
       @mousedown.stop.prevent="mouseDownHandleelse($event)"
