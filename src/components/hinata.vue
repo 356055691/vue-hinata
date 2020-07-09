@@ -59,8 +59,9 @@ export default {
 }
 .girl-c {
     position: fixed;
-    left: 20px;
-    top: 10px;
+    left: 100px;
+    top: 100px;
+    z-index: 9999999;
 }
 .girl-pic {
     width: auto;
