@@ -14,7 +14,7 @@
 </template>
 <script>
 export default {
-  name: 'vueHinata',
+  name: 'hinata',
   data() {
     return {
       picNum: 1,
