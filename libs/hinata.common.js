@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["vue-hinata"] = factory();
-	else
-		root["vue-hinata"] = factory();
-})((typeof self !== 'undefined' ? self : this), function() {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -265,7 +256,7 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"4c27f73d-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/hinata.vue?vue&type=template&id=6a6198e5&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"fa2c5572-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/hinata.vue?vue&type=template&id=6a6198e5&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"girl",staticClass:"girl-c"},[(_vm.picNum===1)?_c('img',{staticClass:"girl-pic",attrs:{"src":__webpack_require__("153c")}}):_vm._e(),(_vm.picNum===2)?_c('img',{staticClass:"girl-pic",attrs:{"src":__webpack_require__("9448")}}):_vm._e(),(_vm.picNum===3)?_c('img',{staticClass:"girl-pic",attrs:{"src":__webpack_require__("7ec5")}}):_vm._e(),(_vm.picNum===4)?_c('img',{staticClass:"girl-pic",attrs:{"src":__webpack_require__("f6b1")}}):_vm._e(),(_vm.picNum===5)?_c('img',{staticClass:"girl-pic",attrs:{"src":__webpack_require__("72e8")}}):_vm._e(),_c('div',{staticClass:"girl-main",on:{"mousedown":function($event){$event.stopPropagation();$event.preventDefault();return _vm.mouseDownHandleelse($event)},"mouseup":function($event){$event.stopPropagation();$event.preventDefault();return _vm.mouseUpHandleelse($event)}}})])}
 var staticRenderFns = []
 
@@ -467,5 +458,4 @@ var component = normalizeComponent(
 /***/ })
 
 /******/ });
-});
-//# sourceMappingURL=vue-hinata.umd.js.map
+//# sourceMappingURL=hinata.common.js.map
